@@ -1,1 +1,3 @@
-import math as m
+# Importing numpy
+import numpy as np
+

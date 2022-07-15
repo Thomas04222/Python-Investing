@@ -10,15 +10,33 @@
 
 # Installing various packages
 # pip install numpy
-# pip install pandas 
-# pip install matplotlib.pyplot
-# pip install matplotlib.dates
 
+# Download anaconda from internet 
+# https://www.anaconda.com/products/distribution
+
+
+
+# "conda install -c anaconda pandas"
+# "conda install -c conda-forge matplotlib"
 
 
 # Importing numpy
+import matplotlib
 import numpy as np
 
 # Importing pandas 
 import pandas as pd 
+
+# Importing pyplot
+import matplotlib.pyplot as plt
+
+# Importing dates (styling dates)
+import matplotlib.dates as mdates
+%matplotlib inline 
+
+# Import date & time
+import datetime as dt 
+import time
+
+
 
